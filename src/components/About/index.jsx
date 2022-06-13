@@ -1,6 +1,8 @@
 import './index.scss';
 import React, { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCss3, faGitAlt, faHtml5, faJsSquare, faReact, faAngular} from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -49,6 +51,29 @@ const About = () => {
           Markets during Covid, and in several departments for Canadian Tire and
           Rona prior to entering the aviation industry.
         </p>
+      </div>
+
+      <div className='stage-cube-cont'>
+          <div className='cubespinner'>
+            <div className='face1'>
+              <FontAwesomeIcon icon={faAngular} />
+            </div>
+            <div className='face2'>
+              <FontAwesomeIcon icon={faHtml5} />
+            </div>
+            <div className='face3'>
+              <FontAwesomeIcon icon={faCss3} />
+            </div>
+            <div className='face4'>
+              <FontAwesomeIcon icon={faReact} />
+            </div>
+            <div className='face5'>
+              <FontAwesomeIcon icon={faJsSquare} />
+            </div>
+            <div className='face6'>
+              <FontAwesomeIcon icon={faGitAlt} />
+            </div>
+          </div>
       </div>
     </div>
   );
