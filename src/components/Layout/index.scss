@@ -1,3 +1,8 @@
+$primary: #a00202b7;
+$secondary: #FFC288;
+$tertiary: #FEA82F;
+$font: #444;
+
 .page {
   width: 100%;
   height: 100%;
@@ -10,7 +15,7 @@
 }
 
 .tags{
-  color: #ffd700;
+  color: $primary;
   opacity: 0.6;
   position: absolute;
   bottom: 0;
@@ -51,7 +56,7 @@
   h1 {
     font-size: 53px;
     font-family: 'Coolvetica';
-    color: #ffd700;
+    color: $font;
     font-weight: 400;
     margin-top: 0;
     position: relative;
@@ -61,7 +66,7 @@
     &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      color: $primary;
       font-size: 18px;
       position: absolute;
       margin-top: -10px;
@@ -73,7 +78,7 @@
     &:after {
       content: '<h1/>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      color: $primary;
       font-size: 18px;
       line-height: 18px;
       position: absolute;
@@ -85,8 +90,8 @@
   }
 
   p {
-    font-size: 13px;
-    color: #fff;
+    font-size: 16px;
+    color: $font;
     font-family: sans-serif;
     font-weight: 300;
     max-width: fit-content;

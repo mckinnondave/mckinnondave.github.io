@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import LogoTitle from '../../assets/images/logo-d.png'
+import LogoTitle from '../../assets/images/logo-dd.png'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
@@ -8,7 +8,7 @@ import "./index.scss"
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate")
-  const nameArray = ['a', 'v', 'e', ' ', 'M', 'c', 'k', 'i', 'n', 'n', 'o', 'n']
+  const nameArray = ['a', 'v', 'e', ' ', 'M', 'c', 'K', 'i', 'n', 'n', 'o', 'n']
   const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
   useEffect(() => {

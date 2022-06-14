@@ -50,7 +50,7 @@ const Contact = () => {
           </h1>
           <p>
             I am interested in a Junior Developer role with a company that I can
-            further develop my skills with and provide value for.
+            further develop my skills with and provide value for!
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>

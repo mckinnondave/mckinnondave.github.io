@@ -8,13 +8,8 @@
   bottom: 0;
   left: auto;
   margin: auto;
-
-  svg{
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
-  }
+  transition: all 0.3s ease-in;
+  animation: fadeIn 3s 3.5s backwards, pulse 3s 4.5s forwards;
 
   .solid-logo {
     position: absolute;
@@ -23,8 +18,9 @@
     bottom: auto;
     left: 0;
     margin: auto;
-    width: 100%;
-    transform: rotateZ(30deg);
+    margin-top: 100px;
+    width: 120%;
+    transform: rotateZ(15deg);
   }
 }
 
