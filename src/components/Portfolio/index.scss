@@ -1,47 +1,8 @@
-.portfolio-page {
-  border: black solid
-}
-
-.text-zone.port{
-  // border: solid black;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.project {
-  display: flex;
-  flex-direction: row;
-  border: solid black;
-  width: 100%;
-  height: 30%;
-
-  &-image {
-    margin: 1%;
-    border: solid black;
-    width: 44%;
-    height: 92%;
+.text-zone.portfolio {
+  & h3{
+    margin: 0;
   }
-
-  &-box {
-    height: 94%;
-    width: 55%;
-    margin: 1%;
-    margin-left: 0;
-    display: flex;
-    flex-direction: column;
-
-    &-title {
-      width: 98%;
-      height: 10%;
-      border: solid black;
-    }
-
-    &-description {
-      width: 98%;
-      height: 100%;
-      border: solid black;
-    }
+  & p {
+    font-size: 15px;
   }
 }
