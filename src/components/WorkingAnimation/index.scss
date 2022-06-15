@@ -6,3 +6,11 @@
   animation: fadeIn 1s 2s backwards;
   margin-top: 50px;
 }
+
+$border: solid black 1px;
+@media (max-width: 1024px) {
+
+  #working-animation {
+    display: none;
+  }
+}
