@@ -1,7 +1,4 @@
-$primary: #a00202b7;
-$secondary: #FFC288;
-$tertiary: #FEA82F;
-$font: #444;
+$primary-color: #FEA82F;
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
@@ -36,6 +33,6 @@ textarea {
   bottom: 0;
   width: 50px;
   height: 50px;
-  animation: fadeOut 0.6s 0.8s;
+  animation: fadeOut 0.7s 0.8s;
   animation-fill-mode: forwards;
 }
