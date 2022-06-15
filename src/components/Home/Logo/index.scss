@@ -24,3 +24,32 @@
   }
 }
 
+$border: solid black 1px;
+@media (max-width: 1024px) {
+  .logo-container {
+    z-index: 0;
+    width: 120px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    transition: all 0.3s ease-in;
+    animation: fadeIn 3s 3.5s backwards, pulse 3s 4.5s forwards;
+  
+    .solid-logo {
+      position: absolute;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+      margin-top: 170px;
+      width: 120%;
+      transform: rotateZ(0deg);
+    }
+  }
+}
+
