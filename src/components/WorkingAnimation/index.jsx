@@ -3,7 +3,7 @@ import workingAnimation from "../../animations/working.json"
 import React, { useEffect } from 'react';
 import './index.scss'
 
-export default function MessageAnimation() {
+export default function WorkingAnimation() {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -12,10 +12,10 @@ export default function MessageAnimation() {
         container: document.querySelector('#working-animation'),
         animationData: workingAnimation,
         renderer: 'svg', 
-        loop: false, 
+        loop: true, 
         autoplay: true, 
       })
-        .setSpeed(0.8)
+        .setSpeed(0.7)
      }, 2000);
     return () => clearTimeout(timeout);
   }, []);
