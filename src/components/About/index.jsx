@@ -39,8 +39,8 @@ const About = () => {
           want to see where this new, exciting path might lead me.
         </p>
         <p>
-          Previous experience includes operating commercial domestic flights in
-          Canada with Westjet Encore, scheduled passenger flights and Medevac
+          My previous experience includes operating commercial domestic flights in
+          Canada with Westjet Encore, and scheduled passenger flights and Medevac
           operations with Perimeter Aviation. As well, I have a background in
           retail, where I worked in a Point of Sales position for Choices
           Markets during Covid, and in several departments for Canadian Tire and
