@@ -1,5 +1,5 @@
 import lottie from 'lottie-web';
-import messageAnimation from "../../animations/message.json"
+import workingAnimation from "../../animations/working.json"
 import React, { useEffect } from 'react';
 import './index.scss'
 
@@ -9,10 +9,10 @@ export default function MessageAnimation() {
     const timeout = setTimeout(() => {
       lottie
         .loadAnimation({
-        container: document.querySelector('#message-animation'),
-        animationData: messageAnimation,
+        container: document.querySelector('#working-animation'),
+        animationData: workingAnimation,
         renderer: 'svg', 
-        loop: false,
+        loop: false, 
         autoplay: true, 
       })
         .setSpeed(0.8)
@@ -21,7 +21,7 @@ export default function MessageAnimation() {
   }, []);
 
   return (
-    <div id="message-animation" />
+    <div id="working-animation" />
   )
 
 }
