@@ -5,7 +5,7 @@ $font: #444;
 
 .nav-bar {
   background: $tertiary;
-  width: 60px;
+  width: 80px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -90,6 +90,11 @@ $font: #444;
     a.contact-link {
       &:after {
         content: 'CONTACT';
+      }
+    }
+    a.portfolio-link {
+      &:after {
+        content: 'PORTFOLIO';
       }
     }
 

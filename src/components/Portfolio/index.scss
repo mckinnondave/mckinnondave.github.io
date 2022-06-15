@@ -1,6 +1,23 @@
+$primary: #a00202b7;
+$secondary: #FFC288;
+$tertiary: #FEA82F;
+$font: #444;
+
 .text-zone.portfolio {
-  & h3{
-    margin: 0;
+  & a{
+    font-size: 18px;
+    font-weight: bold;
+    color: font;
+    text-decoration: none;
+
+    &:visited {
+      color: $font;
+    }
+
+    &:hover {
+      color: $primary;
+      transition: 0.6s;
+    }
   }
   & p {
     font-size: 15px;
