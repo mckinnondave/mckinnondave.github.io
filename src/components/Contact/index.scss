@@ -44,7 +44,7 @@ $font: #444;
     background: $tertiary;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: $font;
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -55,7 +55,7 @@ $font: #444;
     background: $tertiary;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: $font;
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
