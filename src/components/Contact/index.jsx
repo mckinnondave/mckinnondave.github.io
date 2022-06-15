@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import emailjs from '@emailjs/browser';
+import MessageAnimation from '../MessageAnimation';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -89,8 +90,10 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <MessageAnimation />
       <Loader type="pacman" />
     </>
+    
   );
 };
 
