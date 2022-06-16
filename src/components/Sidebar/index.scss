@@ -199,7 +199,35 @@ $border: solid black 1px;
           opacity: 0;
           transition: all 0.3s ease-out;
         }
+
+        &:first-child {
+          &::after {
+            content: '';
+          }
+        }
+      }
   
+      a.about-link {
+        &:after {
+          content: '';
+        }
+      }
+  
+      a.contact-link {
+        &:after {
+          content: '';
+        }
+      }
+      a.portfolio-link {
+        &:after {
+          content: '';
+        }
+      }
+  
+      a.active {
+        svg {
+          color: $primary;
+        }
       }
     }
   
