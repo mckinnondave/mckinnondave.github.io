@@ -6,5 +6,8 @@ This guide was used for educational purposes with the intention of improving my 
 
 You can check out the portfolio at: [https://mckinnondave.github.io](https://mckinnondave.github.io/)
 
+### Desktop View
 ![](./portfolio.gif)
+
+### Mobile View
 ![](./mobile.gif)
