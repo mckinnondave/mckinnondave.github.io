@@ -26,6 +26,12 @@ const Portfolio = () => {
             />
           </h1>
           <p>
+            <a href="https://github.com/mckinnondave/Quick-Trivia" target="_blank">Quick Trivia</a><br />
+            Quick Trivia is my most recent project since graduating from Lighthouse Labs and is a React based trivia game. Quick Trivia challenges users with 10 trivia questions per round they play, which are randomly selected from a category of their choosing. A user has 20 seconds to answer each question, and their score is based on how quickly they answer the question. As well, a user can submit their final score to be added to a persisting scoreboard. 
+            
+            This project uses React, Sass, Node, Express, Axios, MongoDB, Netlify, and Heroku. It can be played <a href='https://quick-trivia-game.netlify.app/' target="_blank">here!</a>
+          </p>
+          <p>
             <a href="https://github.com/mckinnondave/Hopper" target="_blank">Hopper</a><br />
             A react based application designed to simplify the
             decision making process when out with friends during a pub crawl.
@@ -51,14 +57,6 @@ const Portfolio = () => {
             can either edit/delete their bookings. The client application
             communicates with an API server over HTTP and users data is
             persisted by the API server using a PostgreSQL database.
-          </p>
-          <p>
-            <a href="https://github.com/mckinnondave/tweeter" target="_blank">Tweeter</a><br />
-            Tweeter is a simple, single-page Twitter clone. This repository is
-            the starter code for the project: Students will fork and clone this
-            repository, then build upon it to practice their HTML, CSS, JS,
-            jQuery and AJAX front-end skills, and their Node, Express back-end
-            skills.
           </p>
         </div>
       </div>
